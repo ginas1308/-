@@ -13,8 +13,8 @@ class customedreserve(slidereserve):
         for some school with https://office.chaoxing.com/front/apps/seatengine url prefix. **Please modify seatId**
         eg: 中国矿业大学
         '''
-        # self.url = "https://office.chaoxing.com/front/apps/seatengine/select?id={}&day={}&backLevel=2&seatId=xxx"
-        # self.submit_url = "https://office.chaoxing.com/data/apps/seatengine/submit"
+        self.url = "https://office.chaoxing.com/front/apps/seatengine/select?id={}&day={}&backLevel=2&seatId=093"
+        self.submit_url = "https://office.chaoxing.com/data/apps/seatengine/submit"
 
         '''
         for some school with https://reserve.chaoxing.com/front/third/apps/seat/select url prefix. **Please modify pageToken**
